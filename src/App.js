@@ -12,7 +12,7 @@ function App() {
    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/use-effect" element={<UseEffectShowcase />} />
+        <Route path="/use-effect" element={<UseEffectShowcase slug={'test'} />} />
         <Route path="/use-ref" element={<UseRefShowcase />} />
         <Route path="/use-memo" element={<UseMemoShowcase />} />
         <Route path="/use-callback" element={<UseCallbackShowcase />} />
